@@ -14,7 +14,7 @@ public class IfStatements {
         if (numberOne == numberTwo){
             System.out.println("NumberOne is same as than numberTwo");
         }
-        else if (numberOne < numberTwo) {
+        else if (numberOne < numberTwo) { // if above if is not true, checks this one. If this one is not true continues to else.
             System.out.println("NumberOne is different than numberTwo");
             System.out.println("NumberTwo is bigger than numberOne");
         }
